@@ -21,10 +21,10 @@ import java.text.NumberFormat
  * Data class for menu items
  */
 data class MenuItem(
-    val name: String,
-    val description: String,
-    val price: Double,
-    val type: Int
+    val name: String, // 菜品名稱
+    val description: String, // 菜品說明
+    val price: Double, // 價格
+    val type: Int // 菜品類型(主餐、配菜和小菜)
 ) {
     /**
      * Getter method for price.

@@ -19,7 +19,7 @@ package com.example.lunchtray.constants
  * Object for items types. Applied to the MenuItem object.
  */
 object ItemType {
-    val ENTREE = 1
-    val SIDE_DISH = 2
-    val ACCOMPANIMENT = 3
+    val ENTREE = 1 // 主餐
+    val SIDE_DISH = 2 // 配菜
+    val ACCOMPANIMENT = 3 // 小菜
 }
